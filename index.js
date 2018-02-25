@@ -4,6 +4,9 @@
 function happyHoliday() {
   return ('Happy Holidays !!');
 }
-function happyHolidayTo(personName) {
-  return (`Happy Holidays , ${personName}`);
+function happyHolidaysTo(personName) {
+  return (`Happy Holidays , ${personName} !`);
+}
+function happyHolidayTo(holidayName,personName) {
+  return (`Happy ${holidayName} , ${personName} !`);
 }
